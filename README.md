@@ -16,11 +16,11 @@ Add the dependency from jCenter to your app's (not project's) `build.gradle` fil
 
 ```groovy
 repositories {
-    jcenter()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    compile 'net.authorize:accept-sdk-android:1.0.2'
+    compile 'com.github.AuthorizeNet:accept-sdk-android:1.04'
 }
 ```
 
